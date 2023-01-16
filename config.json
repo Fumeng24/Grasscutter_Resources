@@ -35,7 +35,7 @@
     "http": {
       "bindAddress": "0.0.0.0",
       "bindPort": 443,
-      "accessAddress": "$my_ip",
+      "accessAddress": "127.0.0.1",
       "accessPort": 0,
       "encryption": {
         "useEncryption": true,
@@ -59,7 +59,7 @@
     "game": {
       "bindAddress": "0.0.0.0",
       "bindPort": 22102,
-      "accessAddress": "$my_ip",
+      "accessAddress": "127.0.0.1",
       "accessPort": 0,
       "loadEntitiesForPlayerRange": 100,
       "enableScriptInBigWorld": false,
